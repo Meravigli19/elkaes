@@ -1,0 +1,94 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.navbar-logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin-left: 20px;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-menu a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+.about_section .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.body {
+    font-family: "Poppins", sans-serif;
+    color: #040000;
+    background-color: #ffffff;
+}
+.container {   width: 1400px;
+    height: 200px;
+    background-color: #fcf8f8;
+    border: 1px solid #ff0707;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);}
+
+    .addres  {   width: 1400px;
+        height: 400px;
+        background-color: #dddddd;
+        border: 1px solid #fb0909;
+        padding: 20px;
+        margin: 10px;
+        text-align: center;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);}
+
+        .hobi {   width: 1400px;
+            height: 400px;
+            background-color: #f6f6f6;
+            border: 1px solid #f60909;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);}
+
+            .about {   width: 1400px;
+                height: 1000px;
+                background-color: #f9fdfb;
+                border: 1px solid #cd1b1b;
+                padding: 20px;
+                margin: 10px;
+                text-align: center;
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);}
+    
